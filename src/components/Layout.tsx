@@ -27,9 +27,9 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
         )}
       >
         {/* Sidebar Header */}
-        <div className="relative px-8 py-8 border-b border-gradient-to-r from-slate-100 to-transparent">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
+        <div className="relative bg-gradient-to-r from-slate-100 to-transparent p-[1px] border-b">
+          <div className="px-8 py-8 bg-white rounded-tl-2xl rounded-tr-2xl">
+            <div className="flex items-center justify-between">
               <div className="relative">
                 <div className="flex items-center justify-center w-12 h-12 bg-gradient-to-br from-indigo-600 via-purple-600 to-cyan-600 rounded-2xl shadow-lg shadow-indigo-500/25">
                   <Sparkles size={24} className="text-white" />
