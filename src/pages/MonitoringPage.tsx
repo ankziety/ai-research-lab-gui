@@ -50,7 +50,7 @@ export const MonitoringPage: React.FC = () => {
       <div className="mt-4">
         <div className="w-full bg-gray-200 rounded-full h-2">
           <div
-            className={`h-2 rounded-full transition-all duration-500 ${color.replace('bg-', 'bg-')}`}
+            className={`h-2 rounded-full transition-all duration-500 ${color}`}
             style={{ width: `${Math.min(value, 100)}%` }}
           />
         </div>
